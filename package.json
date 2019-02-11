@@ -1,7 +1,7 @@
 {
   "name": "reason-react-document-title",
   "description": "Reason component to manage document title",
-  "main": "./src/Document.re",
+  "main": "./src/DocumentTitle.re",
   "version": "0.1.0",
   "scripts": {
     "build": "bsb -make-world",
