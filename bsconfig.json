@@ -1,0 +1,31 @@
+{
+  "name": "reason-react-document-title",
+  "reason": {
+    "react-jsx": 2
+  },
+  "sources": [
+    {
+      "dir" : "src",
+      "subdirs" : true
+    },
+    {
+      "dir": "__tests__",
+      "subdirs" : true,
+      "type": "dev"
+    }
+  ],
+  "package-specs": [{
+    "module": "commonjs",
+    "in-source": true
+  }],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": [
+    "reason-react"
+  ],
+  "bs-dev-dependencies": [
+    "@glennsl/bs-jest",
+    "bs-enzyme"
+  ],
+  "refmt": 3
+}

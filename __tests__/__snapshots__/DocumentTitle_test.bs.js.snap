@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DocumentTitle should render childen if provided 1`] = `"<div>Some Children</div>"`;
+
+exports[`DocumentTitle should render nothing if no children 1`] = `""`;

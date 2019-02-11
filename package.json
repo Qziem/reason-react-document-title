@@ -1,0 +1,26 @@
+{
+  "name": "reason-react-document-title",
+  "description": "Reason component to manage document title",
+  "main": "./src/Document.re",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "yarn build && jest"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "Qziem",
+  "license": "MIT",
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.7",
+    "bs-enzyme": "^0.6.1",
+    "bs-platform": "^4.0.18",
+    "enzyme-adapter-react-16": "^1.9.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "reason-react": ">=0.4.0"
+  }
+}
