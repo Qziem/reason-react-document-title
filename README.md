@@ -13,7 +13,6 @@ npm install reason-react-document-title --save
 Remeber, add to `bsconfig.json`:
 ```json
 {
-  ...
   "bs-dependencies": ["reason-react-document-title"]
 }
 ```
@@ -48,4 +47,4 @@ Changing title prop will affect on document.title automatically.
 
 When component is unmounted, document.title value will be set to empty string.
 
-If find any problems or have improvement idea, feel free to create issue on github :)
+If find any problems or have improvement idea, feel free to create issue :)
