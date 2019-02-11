@@ -1,7 +1,8 @@
+*.bs.js
 .DS_Store
 .merlin
 .bsb.lock
 yarn-error.log
 npm-debug.log
-/lib/bs/
+/lib/
 /node_modules/
