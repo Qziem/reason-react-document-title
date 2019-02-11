@@ -2,7 +2,12 @@
   "name": "reason-react-document-title",
   "description": "Reason component to manage document title",
   "main": "./src/DocumentTitle.re",
-  "version": "0.1.1",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kamilkuz/reason-react-document-title"
+  },
+  "bugs": "https://github.com/kamilkuz/reason-react-document-title/issues",
   "scripts": {
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
@@ -10,7 +15,7 @@
     "test": "yarn build && jest"
   },
   "keywords": [
-    "BuckleScript"
+    "BuckleScript", "Reason", "ReasonReact", "React", "document.title"
   ],
   "author": "Qziem",
   "license": "MIT",

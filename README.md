@@ -1,6 +1,23 @@
 # Reason React Document Title
 Provide reason react component for manage document.title
 
+### Instalation
+using yarn:
+```sh
+yarn add reason-react-document-title
+```
+using npm:
+```sh
+npm install reason-react-document-title --save
+```
+Remeber, add to `bsconfig.json`:
+```json
+{
+  ...
+  "bs-dependencies": ["reason-react-document-title"]
+}
+```
+
 ### Usage
 For example:
 ```javascript
@@ -28,4 +45,7 @@ let make = (~title: string, _children) => {
 ```
 
 Changing title prop will affect on document.title automatically.
-If the component is unmounted, the document.title value will be set to empty string.
+
+When component is unmounted, document.title value will be set to empty string.
+
+If find any problems or have improvement idea, feel free to create issue on github :)
