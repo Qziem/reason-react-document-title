@@ -1,7 +1,7 @@
 # Reason React Document Title
 Provide reason react component for manage document.title
 
-### Instalation
+### Installation
 using yarn:
 ```sh
 yarn add reason-react-document-title
@@ -20,11 +20,11 @@ Remeber, add to `bsconfig.json`:
 ### Usage
 For example:
 ```javascript
-let make = (~title: string, _children) => {
+let make = _children => {
   ...component,
   render: _self => 
     <div>
-        <DocumentTitle title />
+        <DocumentTitle title="My title" />
         ... some stuff
     </div>,
 };
@@ -32,10 +32,10 @@ let make = (~title: string, _children) => {
 
 Or if you like:
 ```javascript
-let make = (~title: string, _children) => {
+let make = _children => {
   ...component,
   render: _self => 
-    <DocumentTitle title>
+    <DocumentTitle title="My title">
         <div>
             ... some stuff
         </div>
