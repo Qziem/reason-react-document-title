@@ -4,10 +4,10 @@ Provide reason react component for manage document.title
 ### Installation
 using yarn:
 ```sh
+# yarn
 yarn add reason-react-document-title
-```
-using npm:
-```sh
+
+#npm
 npm install reason-react-document-title --save
 ```
 Remeber, add to `bsconfig.json`:
@@ -46,7 +46,7 @@ Library also provide component for older Jsx2 version. If you must, use it like 
 ```javascript
 <DocumentTitleJsx2 title="My title" />
 ```
-It also supports children in Jsx2.
+It also supports children.
 
 ### How it works?
 Changing title prop will affect on document.title automatically.
