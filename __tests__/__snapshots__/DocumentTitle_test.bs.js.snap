@@ -2,4 +2,4 @@
 
 exports[`DocumentTitle should render childen if provided 1`] = `"<div>Some Children</div>"`;
 
-exports[`DocumentTitle should render nothing if no children 1`] = `""`;
+exports[`DocumentTitle should render nothing if no children 1`] = `null`;

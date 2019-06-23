@@ -1,7 +1,7 @@
 {
   "name": "reason-react-document-title",
   "reason": {
-    "react-jsx": 2
+    "react-jsx": 3
   },
   "sources": [
     {

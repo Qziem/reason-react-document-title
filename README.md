@@ -20,31 +20,36 @@ Remeber, add to `bsconfig.json`:
 ### Usage
 For example:
 ```javascript
-let make = _children => {
-  ...component,
-  render: _self => 
-    <div>
-        <DocumentTitle title="My title" />
-        ... some stuff
-    </div>,
+[@react.component]
+let make = () => {
+  <div>
+    <DocumentTitle title="My title" />
+    ... some stuff
+  </div>
 };
 ```
 
 Or if you like:
 ```javascript
-let make = _children => {
-  ...component,
-  render: _self => 
-    <DocumentTitle title="My title">
-        <div>
-            ... some stuff
-        </div>
-    </DocumentTitle>,
+[@react.component]
+let make = () => {
+  <DocumentTitle title="My title">
+    <div>
+      ... some stuff
+      </div>
+  </DocumentTitle>,
 };
 ```
 
-Changing title prop will affect on document.title automatically.
+### Jsx2
+Library also provide component for older Jsx2 version. If you must, use it like this:
+```javascript
+<DocumentTitleJsx2 title="My title" />
+```
+It also supports children in Jsx2.
 
+### How it works?
+Changing title prop will affect on document.title automatically.
 When component is unmounted, document.title value will be set to empty string.
 
 If find any problems or have improvement idea, feel free to create issue :)
