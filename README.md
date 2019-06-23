@@ -2,12 +2,11 @@
 Provide reason react component for manage document.title
 
 ### Installation
-using yarn:
 ```sh
 # yarn
 yarn add reason-react-document-title
 
-#npm
+# npm
 npm install reason-react-document-title --save
 ```
 Remeber, add to `bsconfig.json`:
