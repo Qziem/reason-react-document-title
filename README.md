@@ -35,7 +35,7 @@ let make = () => {
   <DocumentTitle title="My title">
     <div>
       ... some stuff
-      </div>
+    </div>
   </DocumentTitle>,
 };
 ```
