@@ -17,6 +17,9 @@ Remeber, add to `bsconfig.json`:
 ```
 
 ### Usage
+You can use one of three implementations: hook, component in Jsx3, component in Jsx2.
+Hook usage is recomended.
+
 #### Hook
 For example:
 ```javascript
@@ -61,7 +64,7 @@ Library also provide component for older Jsx2 version. If you must, use it like 
 It also supports children.
 
 ### How it works?
-Changing title parameter will affect on document.title automatically.
+Changing title parameter will affect on page title (document.title) automatically.
 When component is unmounted, document.title value will be set to empty string.
 
 If find any problems or have improvement idea, feel free to create issue :)
