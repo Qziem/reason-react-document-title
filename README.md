@@ -28,9 +28,9 @@ let make = () => {
     ... some stuff
   </div>
 };
+```
 
 #### Component (Jsx3)
-For example:
 ```javascript
 [@react.component]
 let make = () => {
