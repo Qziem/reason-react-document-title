@@ -1,5 +1,5 @@
 # Reason React Document Title
-Provide reason react component for manage document.title
+Provide reason react hook and component for manage page title (document.title)
 
 ### Installation
 ```sh
@@ -17,6 +17,19 @@ Remeber, add to `bsconfig.json`:
 ```
 
 ### Usage
+#### Hook
+For example:
+```javascript
+[@react.component]
+let make = () => {
+  DocumentTitle.useTitle("My title");
+
+  <div>
+    ... some stuff
+  </div>
+};
+
+#### Component (Jsx3)
 For example:
 ```javascript
 [@react.component]
@@ -40,7 +53,7 @@ let make = () => {
 };
 ```
 
-### Jsx2
+#### Component (Jsx2)
 Library also provide component for older Jsx2 version. If you must, use it like this:
 ```javascript
 <DocumentTitleJsx2 title="My title" />
@@ -48,7 +61,7 @@ Library also provide component for older Jsx2 version. If you must, use it like 
 It also supports children.
 
 ### How it works?
-Changing title prop will affect on document.title automatically.
+Changing title parameter will affect on document.title automatically.
 When component is unmounted, document.title value will be set to empty string.
 
 If find any problems or have improvement idea, feel free to create issue :)
