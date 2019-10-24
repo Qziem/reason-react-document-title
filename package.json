@@ -15,11 +15,11 @@
     "test": "yarn build && jest"
   },
   "keywords": [
-    "BuckleScript",
     "Reason",
     "ReasonReact",
     "React",
     "title",
+    "page title",
     "document.title"
   ],
   "author": "Qziem",

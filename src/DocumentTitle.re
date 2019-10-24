@@ -6,8 +6,7 @@ let getTitle = () => getTitleDom(document);
 let setTitle = setTitleDom(document);
 let unsetTitle = () => setTitle("");
 
-[@react.component]
-let make = (~title, ~children=?) => {
+let useTitle = (title: string): unit =>
   React.useEffect1(
     () => {
       setTitle(title);
@@ -15,6 +14,10 @@ let make = (~title, ~children=?) => {
     },
     [|title|],
   );
+
+[@react.component]
+let make = (~title: string, ~children=?) => {
+  useTitle(title);
 
   switch (children) {
   | Some(childrenCore) => <> childrenCore </>
